@@ -1,0 +1,22 @@
+/* src/MovieList.css */
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .movie {
+    width: calc(25% - 20px); /* 25% width with 20px margin */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .movie img {
+    max-width: 100%;
+    height: auto;
+  }
+  
